@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 95%;
-	margin: auto;
+	margin: 0 auto;
+	width: 90%;
 }
 header {
 	padding: 10px;
@@ -89,22 +89,30 @@ header {
 }
 #container {
 	display: inline-block;
-	width: 80%;
+	height: auto;
+	width: 100%;
 	margin: 0 auto;
 	border: 2px solid blue;
 }
 .text {
+	font-size: 50px;
+	display: inline-block;
 	height: 100%;
 	text-align: center;
-	width: 10%;
+	margin: 10px auto;
+	width: 30%;
+	padding-left: 10%;
 	border: 2px solid magenta;
 }
 
-.snippet {
-	margin: 0 auto;
-	width: 10%;
+#container img {
+	display: inline-block;
+	margin-left: 30%;
+	padding-left: 200px;
+	width: 20%;
+	height: 100%;
 	border: 2px solid rosybrown;
 }
-.snippet img {
-	
+.started {
+	display: inline-block;
 }
