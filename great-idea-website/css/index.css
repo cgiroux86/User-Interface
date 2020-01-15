@@ -49,6 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
+	margin: 0 auto;
 	box-sizing: border-box;
 }
 
@@ -88,23 +89,22 @@ header {
 }
 #container {
 	display: inline-block;
-	padding: 50px 100px;
-	width: 100%;
-	border-bottom: 2px solid green;
-}
-#container p {
-	font-size: 30px;
-}
-#container img {
-	display: inline;
-	margin-left: 300px;
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid blue;
 }
 .text {
-	width: 30%;
+	height: 100%;
+	text-align: center;
+	width: 10%;
 	border: 2px solid magenta;
 }
 
 .snippet {
+	margin: 0 auto;
+	width: 10%;
 	border: 2px solid rosybrown;
-	display: inline-block;
+}
+.snippet img {
+	
 }
