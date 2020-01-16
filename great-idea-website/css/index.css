@@ -66,114 +66,112 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 95%;
-	margin: 0 auto;
+ width: 100%;
+ margin: 0 auto;
 }
 header {
 	padding: 10px;
-	display: inline-block;
-	width: 100%;
-	border: 2px solid pink;
+	width: 90%;
 	margin: 0 auto;
 }
 .header a {
 	height: 50px;
-	width: 100px;
+	width: 20%;
 	margin-right: 12%;
-	border: 1px solid red;
 }
 .header img {
 	margin-left: 8%;
-	border: 2px solid yellow;
-	background: red;
 }
 #container {
-	height: 600px;
-	width: 100%;
 	margin: 0 auto;
+	height: auto;
+	width: 90%;
 	border-bottom: 1px solid black;
 }
 .text {
-	font-size: 50px;
+	font-size: 40px;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: bold;
 	display: inline-block;
-	height: auto;
-	text-align: center;
-	margin-left: 150px;
-	margin-bottom: 200px;
+	height: 300px;
 	width: 30%;
-	padding-left: 10%;
-	border: 2px solid magenta;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-left: 100px;
 }
 
-#container img {
-	display: inline-block;
-	margin-top: 50px;
-	margin-left: 30%;
-	padding-left: 200px;
-	width: 20%;
-	height: 75%;
-	border: 2px solid rosybrown;
-}
 .started {
 	display: inline-block;
 }
 .main {
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	border-bottom: 1px solid black;
 }
 .about {
 	width: 40%;
 	display: inline-block;
-	margin-left: 100px;
-	border: 2px solid green;
+	margin-left: 200px;
 }
 .features {
 	width: 40%;
 	margin-top: 10px;
-	margin-left: 100px;
 	margin-bottom: 20px;
 	display: inline-block;
-	border: 2px solid red;
 }
-.middle-img img{
-	height: 200px;
-	border: 1px solid brown;
+.mid-img {
+	width: 30%;
+	height: 300px;
+	margin-left: 450px;
+	padding-top: 100px;
+	padding-left: 10px;
+	display: inline-block;
+}
+.last-img {
+	height: 150px;
 	width: 100%;
-	padding-left: 95px;
-	padding-right: 125px;
+	margin: 0 auto;
 }
 .services {
 	display: inline-block;
 	width: 25%;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	margin-left: 100px;
 	height: auto;
-	border: 2px solid blue;
 }
 .product {
 	display: inline-block;
 	width: 25%;
 	margin-left: 100px;
-	border: 2px solid orange;
 }
 .vision {
 	display: inline-block;
 	width: 25%;
 	margin-left: 100px;
 	height: auto;
-	border: 2px solid purple;
 }
 .address {
-	border: 2px solid pink;
 	text-align: left;
 }
 footer {
-	border: 2px solid green;
+	margin-top: 10px;
 	text-align: center;
 	margin-left: 100px;
 }
 .para {
-	border: 2px solid magenta;
+	width: 100%;
+	margin: 0 auto;
 	margin-bottom: 10px;
 }
+
+button {
+	padding-bottom: 10px;
+	height: 30px;
+	width: 200px;
+}
+.holder {
+	margin: 0 auto;
+	height: auto;
+}
+
